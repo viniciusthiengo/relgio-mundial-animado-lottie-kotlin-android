@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+		No <item> a seguir temos a definição de: cor de background;
+		curvatura de borda; e cor e largura de borda do componente
+		retangular que está sendo trabalhado.
+	-->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="2dp" />
+            <stroke
+                android:width="2dp"
+                android:color="@android:color/white" />
+        </shape>
+    </item>
+
+    <!--
+		No <item> a seguir temos a definição de imagem de background,
+		no caso a imagem ic_keyboard_arrow_down_white_18dp. A imagem
+		estará centralizada na vertical e a 0.5dp da borda direita
+		(center_vertical|right) do componente container (em nosso
+		domínio do problema Spinner é o container). A cor da imagem
+		também está sendo definida via tint.
+	-->
+    <item android:right="8dp">
+        <bitmap
+            android:tint="@android:color/white"
+            android:gravity="center_vertical|right"
+            android:src="@drawable/ic_keyboard_arrow_down_white_18dp" />
+    </item>
+</layer-list>

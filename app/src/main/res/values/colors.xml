@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorSunSky</color>
+    <color name="colorPrimaryDark">@color/colorSunSky</color>
+    <color name="colorAccent">@color/colorMoonSky</color>
+
+    <color name="colorInfo">@android:color/white</color>
+
+    <color name="colorSunSky">#84d4f8</color>
+    <color name="colorMoonSky">#617f8c</color>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Relógio Mundial</string>
+
+    <string name="info_icon_desc">
+        Ícone de informativo de horário em uso.
+    </string>
+
+    <string name="info_content">
+        Temporariamente o aplicativo está utilizando o horário do
+        aparelho. Assim que o retorno do servidor NTP acontecer
+        esse informe será removido de tela.
+    </string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ClockActivity">
+
+    <!--
+        View Lottie de animação, cobre toda a extensão da tela
+        disponível ao aplicativo. Devido a isso, e tambem para não
+        reconfigurarmos os paddings já definidos no RelativeLayout
+        do design, foi escolhido utilizar um FrameLayout como
+        layout container.
+    -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lav_sun_moon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:lottie_autoPlay="false"
+        app:lottie_fileName="sun_moon.json"
+        app:lottie_loop="false" />
+
+    <RelativeLayout
+        android:id="@+id/rv_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/paddingBottom"
+        android:paddingLeft="@dimen/paddingSide"
+        android:paddingRight="@dimen/paddingSide"
+        android:paddingTop="@dimen/paddingTop">
+
+        <Spinner
+            android:id="@+id/sp_countries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_border_and_background"
+            android:entries="@array/countries"
+            android:padding="12dp"
+            android:popupBackground="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:theme="@style/AppTheme.SpinnerTheme" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_above="@+id/ll_info_date"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:layout_height="wrap_content">
+
+            <rm.com.clocks.ClockImageView
+                android:id="@+id/civ_clock"
+                android:layout_width="@dimen/clock_width"
+                android:layout_height="@dimen/clock_height"
+                android:layout_marginRight="14dp"
+                android:layout_marginEnd="14dp"
+                app:clockColor="@android:color/white"
+                app:frameWidth="light"
+                app:indeterminateSpeed="2"
+                app:pointerWidth="light"
+                app:timeSetDuration="800" />
+
+            <TextView
+                android:id="@+id/tv_clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/josefin_sans_regular"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="41sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_info_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="@dimen/icon_width"
+                android:layout_height="@dimen/icon_height"
+                android:layout_marginEnd="@dimen/icon_margin"
+                android:layout_marginRight="@dimen/icon_margin"
+                android:contentDescription="@string/info_icon_desc"
+                app:lottie_autoPlay="true"
+                app:lottie_colorFilter="@color/colorInfo"
+                app:lottie_loop="false"
+                app:lottie_rawRes="@raw/warning" />
+
+            <!-- ImageView
+                android:layout_width="@dimen/icon_width"
+                android:layout_height="@dimen/icon_height"
+                android:layout_marginEnd="@dimen/icon_margin"
+                android:layout_marginRight="@dimen/icon_margin"
+                android:contentDescription="@string/info_icon_desc"
+                android:src="@drawable/ic_warning"
+                android:tint="@color/colorInfo" / -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/info_content"
+                android:textColor="@color/colorInfo" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

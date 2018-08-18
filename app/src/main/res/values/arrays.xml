@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countries">
+        <item>Brasil (GMT-03:00)</item>
+        <item>Estados Unidos (GMT-05:00)</item>
+        <item>Japão (GMT+09:00)</item>
+        <item>Moçambique (GMT+02:00)</item>
+        <item>Zambia (GMT+02:00)</item>
+    </string-array>
+
+    <string-array name="countries_gmt">
+        <item>GMT-03:00</item>
+        <item>GMT-05:00</item>
+        <item>GMT+09:00</item>
+        <item>GMT+02:00</item>
+        <item>GMT+02:00</item>
+    </string-array>
+</resources>

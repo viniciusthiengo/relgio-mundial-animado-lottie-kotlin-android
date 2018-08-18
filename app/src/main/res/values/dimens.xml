@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingBottom">20dp</dimen>
+    <dimen name="paddingSide">20dp</dimen>
+    <dimen name="paddingTop">60dp</dimen>
+
+    <dimen name="clock_width">50dp</dimen>
+    <dimen name="clock_height">50dp</dimen>
+
+    <dimen name="icon_width">60dp</dimen>
+    <dimen name="icon_height">60dp</dimen>
+    <dimen name="icon_margin">10dp</dimen>
+</resources>
