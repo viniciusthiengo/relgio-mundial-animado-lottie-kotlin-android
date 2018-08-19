@@ -4,7 +4,7 @@
     <!--
         Tema base do aplicativo herdando de Theme.AppCompat.Light.NoActionBar
         para remover a barra de topo padrão, barra que não será necessária no
-        app de Relógio Mundial.
+        app de Relógio Mundial Animado.
     -->
     <style
         name="AppTheme"

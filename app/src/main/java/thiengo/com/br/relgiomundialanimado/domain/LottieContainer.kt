@@ -8,16 +8,16 @@ import java.util.*
 
 /*
  * Classe criada para ser responsável por manter toda a
- * gerência de animação da ClockActivity.
+ * gerência da animação principal de ClockActivity.
  * */
 class LottieContainer(
     val context: Context,
     val animation: LottieAnimationView ) : Animator.AnimatorListener {
 
     /*
-     * Constantes que contém valores que possivelmente serião
+     * Constantes que contém valores que possivelmente seriam
      * alterados com frequência em projeto de produção. Essas
-     * constantes evita que trabalhemos com valores mágicos,
+     * constantes evitam que trabalhemos com valores mágicos,
      * algo negativo na arquitetura limpa de projeto.
      * */
     companion object {
@@ -65,7 +65,7 @@ class LottieContainer(
     /*
      * Não há problemas em manter aqui os valores mágicos 6 e 18,
      * pois essa é a definição de "dia (sol)" para o nosso domínio
-     * do problema.
+     * de problema.
      * */
     private fun isMorning( hour: Int ): Boolean =
         hour >= 6 && hour < 18

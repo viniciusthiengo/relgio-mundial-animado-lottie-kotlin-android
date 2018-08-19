@@ -51,7 +51,7 @@ class ClockActivity :
 
         /*
          * Iniciando o objeto container das configurações e métodos
-         * de ação sobre a View LottieAnimationView.
+         * de ação sobre a LottieAnimationView principal de projeto.
          * */
         lottieContainer = LottieContainer(this, lav_sun_moon)
     }

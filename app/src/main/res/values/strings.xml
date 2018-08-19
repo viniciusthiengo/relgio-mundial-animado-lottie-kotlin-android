@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Relógio Mundial</string>
+    <string name="app_name">Relógio Mundial Animado</string>
 
     <string name="info_icon_desc">
         Ícone de informativo de horário em uso.
@@ -11,4 +11,5 @@
         aparelho. Assim que o retorno do servidor NTP acontecer
         esse informe será removido de tela.
     </string>
+    <string name="anim_sun_and_moon">Animação de Sol e Lua</string>
 </resources>
