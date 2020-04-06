@@ -1,4 +1,4 @@
-# Lottie API Para Animações no Android
+# Relógio Mundial Animado (Kotlin Android)
 
 Projeto Kotlin Android do artigo [Lottie API Para Animações no Android](https://www.thiengo.com.br/lottie-api-para-animacoes-no-android) no Blog [Thiengo.com.br](https://www.thiengo.com.br).
 
