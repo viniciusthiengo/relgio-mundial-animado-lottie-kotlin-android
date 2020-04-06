@@ -8,7 +8,7 @@ O conteúdo do artigo também está disponível em [vídeos](https://www.thiengo
 
 ### Primeira parte
 
-Caso você queira ter acesso à primeira parte do artigo, então [entre por aqui](https://www.thiengo.com.br/lottie-api-para-animacoes-no-android#title-02). Está primeira parte discute somente a Lottie API, sem um projeto Android de exemplo em especifico.
+Caso você queira ter acesso à primeira parte do artigo, então [entre por aqui](https://www.thiengo.com.br/lottie-api-para-animacoes-no-android#title-02). Está primeira parte discute somente a Lottie API, sem um projeto Android de exemplo em específico.
 
 ## Dúvidas e dicas
 
