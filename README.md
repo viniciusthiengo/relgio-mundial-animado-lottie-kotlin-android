@@ -2,7 +2,7 @@
 
 Projeto Kotlin Android da segunda parte do artigo [Lottie API Para Animações no Android](https://www.thiengo.com.br/lottie-api-para-animacoes-no-android#title-22) do Blog [Thiengo.com.br](https://www.thiengo.com.br). Artigo que discute em detalhes a Lottie API, uma API avançada para animações em aplicativos Android.
 
-<img src="https://www.thiengo.com.br/img/post/normal/f711jdh1nqp7vvlu077ammnkj282cb0e2169ce086b078eccb720f60f49.gif" width="240">
+<img src="https://www.thiengo.com.br/img/post/normal/f711jdh1nqp7vvlu077ammnkj282cb0e2169ce086b078eccb720f60f49.gif" width="240" alt="Animação de um app Android com a Lottie API">
 
 O conteúdo do artigo também está disponível em [vídeos](https://www.thiengo.com.br/lottie-api-para-animacoes-no-android#title-42) e em [slides](https://www.thiengo.com.br/lottie-api-para-animacoes-no-android#title-41).
 
