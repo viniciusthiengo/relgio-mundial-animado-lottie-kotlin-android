@@ -14,7 +14,7 @@ Caso você queira ter acesso à primeira parte do artigo, então [entre por aqui
 
 Caso você queira ter o projeto de exemplo ainda mais atual, isso em relação às tecnologias Android já liberadas desde a criação desse conteúdo sobre a Lottie API.
 
-Caso você queira isso, então será necessário atualiza-lo para o AndroidX, algo simples de fazer, que exige poucos cliques no Android Studio IDE, exatamente como apresentado em: [Migrar para o AndroidX](https://developer.android.com/jetpack/androidx/migrate?hl=pt-br).
+Caso você queira isso, então será necessário atualiza-lo para o AndroidX. Algo simples de fazer, que exige poucos cliques no Android Studio IDE, exatamente como apresentado em: [Migrar para o AndroidX](https://developer.android.com/jetpack/androidx/migrate?hl=pt-br).
 
 De qualquer forma, mesmo sem a atualização para o AndroidX o projeto deverá rodar sem problemas.
 
