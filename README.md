@@ -1,10 +1,14 @@
 # Relógio Mundial Animado (Kotlin Android)
 
-Projeto Kotlin Android do artigo [Lottie API Para Animações no Android](https://www.thiengo.com.br/lottie-api-para-animacoes-no-android) no Blog [Thiengo.com.br](https://www.thiengo.com.br).
+Projeto Kotlin Android da segunda parte do artigo [Lottie API Para Animações no Android](https://www.thiengo.com.br/lottie-api-para-animacoes-no-android#title-22) do Blog [Thiengo.com.br](https://www.thiengo.com.br). Artigo que discute em detalhes a Lottie API, uma API avançada para animações em aplicativos Android.
 
 <img src="https://www.thiengo.com.br/img/post/normal/f711jdh1nqp7vvlu077ammnkj282cb0e2169ce086b078eccb720f60f49.gif" width="240">
 
 O conteúdo do artigo também está disponível em [vídeos](https://www.thiengo.com.br/lottie-api-para-animacoes-no-android#title-42) e em [slides](https://www.thiengo.com.br/lottie-api-para-animacoes-no-android#title-41).
+
+### Primeira parte
+
+Caso você queira ter acesso à primeira parte do artigo, então [entre por aqui](https://www.thiengo.com.br/lottie-api-para-animacoes-no-android#title-02). Está primeira parte discute somente a Lottie API, sem um projeto Android de exemplo em especifico.
 
 ## Dúvidas e dicas
 
